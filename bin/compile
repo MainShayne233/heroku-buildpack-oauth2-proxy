@@ -17,8 +17,8 @@ mkdir -p $GOROOT/bin
 cd $GOHOME
 
 echo "downloading golang..."
-curl -O  https://storage.googleapis.com/golang/go1.8.3.linux-amd64.tar.gz
-tar -xvf go1.8.3.linux-amd64.tar.gz
+curl -O  https://storage.googleapis.com/golang/go1.10.4.linux-amd64.tar.gz
+tar -xvf go1.10.4.linux-amd64.tar.gz
 
 mkdir -p $PROFILED_DIR
 
@@ -72,7 +72,7 @@ chmod +x ${BUILD_DIR}/start-oauth2-proxy.sh
 chmod +x ${PROFILED_DIR}/golang.sh
 chmod +x ${BP_DIR}/export
 
-echo "-----> Installed GoLang1.8.3"
+echo "-----> Installed GoLang1.10.4"
 
 which go
 
